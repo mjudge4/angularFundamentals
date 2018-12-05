@@ -21,7 +21,9 @@
           </a>
           <ul class="dropdown-menu">
             <li >
-              <a href="">Angular Connect</a>
+              <a [routerLink]="['/events']"
+              routerLinkActive="active"
+              [routerLinkActiveOptions]="{exact:true}">Angular Connect</a>
             </li>
           </ul>
         </li>
